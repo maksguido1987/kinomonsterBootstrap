@@ -53,11 +53,11 @@
 
                     <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
                         <ul class="nav nav-pills">
-                            <li class="active"><a href="#">Главная</a></li>
+                            <li><a href="#">Главная</a></li>
                             <li><a href="#">Фильмы</a></li>
                             <li><a href="#">Сериалы</a></li>
                             <li><a href="#">Рейтинг фильмов</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li class="active"><a href="#">Контакты</a></li>
                         </ul>
                     </div>
 
@@ -70,103 +70,33 @@
           <div class="container">
               <div class="row">
 
-                <!-- Блоки с фильмами и сериалами -->
+                <!-- Страница контакты -->
 
                 <div class="col-sm-9 col-sm-push-3">
                   
-                  <form role="search" class="visible-xs">
-                    <div class="form-group">
-                      <div class="input-group">
-                      <input type="search" class="form-control input-lg" placeholder="Ваш запрос">
-                      <div class="input-group-btn">
-                      <button class="btn btn-default btn-lg" type="submit"><i class="glyphicon glyphicon-search"></i></button>           
-                      </div>
-                      </div>
-                    </div>
-                  </form>
-
-                    <h2>Новые фильмы</h2>
+                    <h2>Контакты</h2>
                     <hr>
-                    <div class="row">
-
-                        <div class="film_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                          <img src="assets/img/inter.png" alt="Interstellar">
-                            <div class="film_label">Интерстеллар</div>
-                        </div>
-                        
-                        <div class="film_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                          <img src="assets/img/matrix.png" alt="Matrix">
-                          <div class="film_label">Матрица</div>
-                        </div> 
-
-                        <div class="film_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                          <img src="assets/img/cloud.png" alt="CloudAtlas">
-                          <div class="film_label">Облачный атлас</div>
-                        </div> 
-
-                        <div class="film_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                          <img src="assets/img/max.png" alt="max">
-                          <div class="film_label">Безумный макс</div>
-                        </div>
-                        
-                    </div>
+                    <h4>Отправте Ваш отзыв о портале КиноМонстр</h4>
 
                     <div class="margin-8"></div>
 
-
-                    <h2>Новые сериалы</h2>
-                    <hr>
-                    <div class="row">
-                            
-                        <div class="film_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                          <img src="assets/img/xfiles.png" alt="Секретные материалы">
-                          <div class="film_label">Секретные материалы</div>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="ваше имя" class="form-control input-lg">
                         </div>
-                        
-                        <div class="film_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                          <img src="assets/img/silicon.png" alt="Кремневая долина">
-                          <div class="film_label">Кремневая долина</div>
+                        <div class="form-group">
+                            <input type="text" placeholder="ваш email" class="form-control input-lg">
                         </div>
-                        
-                        <div class="film_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                          <img src="assets/img/dead.png" alt="Ходячие мертвецы">
-                          <div class="film_label">Ходячие мертвецы</div>
+                        <div class="form-group">
+                            <textarea class="form-control""></textarea>
                         </div>
-                        
-                        <div class="film_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                          <img src="assets/img/breakingbad.png" alt="Во все тяжкие">
-                          <div class="film_label">Во все тяжкие</div>
-                        </div>
-                            
-                    </div>
-
-                    <div class="margin-8"></div>
-
-                    <!-- Блоки с новостями -->
-
-                    <a href="https://strana-sovetov.com/miscellaneous/12555-kak-snimali-film-interstellar.html" target="_blanc">
-                      <h3>Как снимали Интерстеллар</h3>
-                    </a>
-                    <hr>
-                    <p>В 2014 году вышел фильм, который занял топовые позиции в рейтингах. "Интерстеллар" — не выдумка, а научная фантастика, основанная на законах физики и представлениях о Вселенной, космосе, черных дырах. Кип Торн, ученый, консультант картины и автор книги "Интерстеллар. Наука за кадром" рассказывает о съемках в Голливуде и об удивительном союзе науки и кино.</p>
-
-                    <a href="https://strana-sovetov.com/miscellaneous/12555-kak-snimali-film-interstellar.html" target="_blanc" class="btn btn-warning pull-right">Читать</a>
-
-                    <div class="margin-8"></div>
-
-                    <a href="http://thr.ru/theatre/tom-henks-podelilsa-vpecatleniem-ot-inferno/" target="_blanc">
-                      <h3>Том Хэнкс поделился впечатлениями от «Инферно»</h3>
-                    </a>
-                    <hr>
-                    <p>Обладатель двух Оскаров на премьере нового фильма во Флоренции рассказал о важности образования и общей осведомленности для современного человека.</p>
-
-                    <a href="http://thr.ru/theatre/tom-henks-podelilsa-vpecatleniem-ot-inferno/" target="_blanc" class="btn btn-warning pull-right">Читать</a>
-
-                    <div class="margin-8 clear"></div>
+                        <button class="btn btn-lg btn-warning pull-right">Отправить</button>
+                    </form>
+                  
 
                 </div>
 
-                <!-- Леве панель меню -->
+                <!-- Левая панель меню -->
 
                 <div class="col-sm-3 col-sm-pull-9 hidden-xs">
                   <div class="panel panel-info">
